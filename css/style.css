@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root{
+  --bluesky: #14FFEC;
+  --sky: #0D7377;
+  --satelite: #323232;
+  --space: #212121;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--space);
+  color: var(--bluesky);
+  line-height: 1.5em;
+}
+
+nav {
+  margin-bottom: 200px;
+}
+
+li{
+  list-style: none;
+}
+.card-header{
+  background-color: var(--bluesky);
+  color: var(--space);
+  border-radius: 5em;
+}
+
+h6{
+  text-align: justify;
+}
+
+.card{
+  background-color: var(--satelite);
+}
