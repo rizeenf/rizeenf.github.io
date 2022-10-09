@@ -10,26 +10,43 @@ body{
   font-family: 'Open Sans', sans-serif;
   background-color: var(--space);
   color: var(--bluesky);
-  line-height: 1.5em;
+  font-size: 12px;
+  line-height: 1.2em;
 }
+li, a{
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--bluesky);
+}
+a:hover{
 
-nav {
-  margin-bottom: 200px;
+  color: var(--sky);
 }
-
-li{
-  list-style: none;
-}
-.card-header{
-  background-color: var(--bluesky);
-  color: var(--space);
-  border-radius: 5em;
-}
-
-h6{
-  text-align: justify;
+.header{
+  background-color: var(--satelite);
 }
 
 .card{
+  margin-top: 150px;
   background-color: var(--satelite);
+  color: var(--bluesky);
+  
+}
+.card-header{
+  background-color: var(--sky);
+  color: var(--bluesky);
+}
+.content{
+  width: 50%;
+}
+
+p{
+  text-align: justify;
+}
+
+
+@media (max-width: 960px) {
+  .content{
+    width: 80%;
+  }
 }
